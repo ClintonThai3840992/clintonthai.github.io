@@ -1,4 +1,5 @@
 /* Text styling */
+
 body {
   margin: 0;
   font-family: Arial;
@@ -6,7 +7,7 @@ body {
 }
 
 h1 {
-  color: #A239CA;
+  color: lightsalmon;
   font-size: 35px;
   font-weight: 800;
 }
@@ -35,9 +36,13 @@ ol {
   line-height: 2em;
 }
 
-/* Layout */
+p {
+  font-size: 18px;
+}
 
-.personal-info {
+/* Class Layout */
+
+.global-styles {
   background-color: #0E0B16;
   padding: 30px 0;
   text-align: left;
@@ -51,10 +56,31 @@ ol {
   background-color: #262225;
   margin: 30px;
   padding: 20px;
-  border: 5px solid #4717F6;
+  border: 8px solid lightsalmon;
+  border-style: outset;
 }
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.image_container {
+  margin: 0px auto;
+}
+
+.side-by-side-images {
+  display: flex;
+}
+
+.selected {
+  color: #B99095;
+}
+
+/* ID Layout */
+
+#images {
+  text-align: center;
+  margin: 25px auto;
+  line-height: 40px;
 }
